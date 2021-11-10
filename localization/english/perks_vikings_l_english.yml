@@ -1,0 +1,29 @@
+﻿l_english:
+
+viking_lifestyle_name:0"Viking"
+viking_lifestyle_desc:0"Living a life of adventure and pillaging, Vikings became feared by all whom lived on the coast."
+#Viking: Raider 
+viking_raider_focus:0"Raider"
+viking_raider_focus_desc:0"Focus on pillaging and reaving the land of others"
+viking_raider_focus_effect_desc:0"Focusing on raiding grants:"
+raider_name:0"Raider"
+ambitious_raider_perk_name:0"Ambitious Raider"
+zealous_warrior_perk_name:0"Sons of the Aesir"
+berserk_warrior_perk_name:0"Berserker"
+shieldwall_perk_name:0"Shieldwall"
+
+
+
+
+
+
+
+
+
+
+#Viking: Trader
+viking_trader_focus:0"Trader"
+viking_trader_focus_desc:0"Vikings were proficient traders as well as raiders"
+viking_trader_focus_effect_desc:0"Focus on aquiring wealth through less bloodthirsty means"
+
+superior_shipbuilders_perk_name:0"Superior Shipbuilders"

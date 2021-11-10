@@ -1,0 +1,11 @@
+﻿l_english:
+
+visit_seer_decision:0"Visit The Seer"
+visit_seer_decision_desc:0"The Seer may see through the haze of life to discern clues about ones fate"
+visit_seer_decision_confirm:0"Go to the temple"
+visit_seer_decision_tooltip:0"Seek out knowledge from a seer"
+seer.9999.t:0"The Seer"
+seer.9999.desc_opening:0"The Seer is an integral part of the Asatru faith, acting as both prophets and guides to all the norse people. As you enter the temple you feel a faint sense of foreboding, no matter how many times you come to visit the Seer it is never a completely comfortable experience"
+seer.9999.a:0"You listen eagerly to the Seer, taking in the prophecy."
+seer.9999.b:0"You try to make sense of events the Seer has foretold."
+seer.9999.c:0"This means nothing, just the inane babbling of a madman"

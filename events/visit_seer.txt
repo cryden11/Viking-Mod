@@ -1,0 +1,48 @@
+seer.9999 = {
+	type = character_event
+	title = seer.9999.t
+
+	desc = {
+		desc = seer.9999.desc_opening
+	}
+	theme = learning_theology_focus
+	left_portrait = { 
+		character = scope:seeker
+		animation = personality_honorable
+	}
+
+	option = {
+		name = seer.9999.a
+		add_learning_lifestyle_xp = miniscule_lifestylexp
+	}
+    #try to decipher the prophecy
+	option = {
+		name = seer.9999.b
+        duel {
+        skill = learning
+        value = medium_skill_rating
+        desc = outcome_in_a_few_days
+        60 ={
+        desc = seer.9999.b.success
+        show_as_tooltip = {
+            add_learning_skill = 1
+        }
+        custom_tooltip = seer.9999.b.success.tt
+            
+            trigger_event = {id = seer.9998 days = 5} #you make sense of the prophecy
+        }
+        40 = {
+        desc = seer.9999.b.failure
+        add_learning_skill = -1
+        custom_tooltip = seer.9999.b.failure.tt
+        trigger_event = {id = seer.9997 days = 5}#you leave more confused than before
+        }
+	}
+    
+    }
+	option = {
+		name = seer.9999.c
+		add_piety = major_piety_loss
+	}
+
+}

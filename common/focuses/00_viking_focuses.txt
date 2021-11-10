@@ -1,0 +1,57 @@
+viking_raider_focus = {
+	lifestyle = viking_lifestyle
+
+	modifier = {martial = 3}
+
+	desc = {
+		desc = viking_raider_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_martial_trigger = yes
+			}
+			add = 1000
+		}
+		if = {
+			limit = {
+				has_trait = generous
+			}
+			multiply = 0
+		}
+	}
+	
+	focus_id = 15
+}
+
+viking_trader_focus = {
+	lifestyle = viking_lifestyle
+
+	modifier = {stewardship = 3}
+
+	desc = {
+		desc = viking_trader_focus_desc
+		desc = line_break
+	}
+	
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_stewardship_trigger = yes
+			}
+			add = 1000
+		}
+		if = {
+			limit = {
+				has_trait = generous
+			}
+			multiply = 0
+		}
+	}
+	
+	focus_id = 16
+}

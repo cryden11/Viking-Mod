@@ -1,0 +1,41 @@
+visit_seer_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+
+	desc = visit_seer_decision_desc
+	selection_tooltip = visit_seer_decision_tooltip
+
+	ai_check_interval = 0
+
+	is_shown = {
+		is_ruler = yes
+		faith = faith:norse_pagan
+	}
+
+	cooldown = { days = 365 }
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+
+	effect = {
+
+		save_scope_as = seeker
+		trigger_event = {
+			id = seer.9999
+			days = 7
+		}
+	}
+
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+
+	cost = {
+		piety = 100
+	}
+
+}

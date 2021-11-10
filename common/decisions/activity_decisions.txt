@@ -1,0 +1,35 @@
+host_flyting_decision = {
+	ai_check_interval = 60
+
+	cost = {gold = standard_activity_cost}
+
+	cooldown = {days = standard_feast_cooldown_time}
+
+	desc = host_flyting_opening_desc
+	selection_tooltip = host_flyting_decision_tooltip
+
+	is_shown = {
+		is_landed = yes
+		highest_held_title_tier > tier_barony
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+	effect = {
+		capital_province = {
+			spawn_activity = {
+				type = activity_flyting
+				owner = root
+			}
+		}
+		custom_tooltip = host_flyting_decision_desc_vassals
+		if = {
+			limit = {
+				is_independent_ruler = no
+			}
+			custom_tooltip = host_flyting_decision_desc_liege_opinion
+		}
+
+	}
+}
